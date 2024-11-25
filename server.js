@@ -11,7 +11,7 @@ app.use(express.json());
 app.use("/api/user", userRoutes);
 app.use("/api/product", productRoutes);
 
-// Ruta raíz para comprobar que el servidor funciona
+
 app.get("/", (req, res) => {
   res.send("¡Servidor funcionando correctamente!");
 });
